@@ -1,6 +1,6 @@
 gen = input()
 age = int(input())
-if gen == 0:
+if gen == '0':
     if age >= 19:
         print("MAN")
     else:
