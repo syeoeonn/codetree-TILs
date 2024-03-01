@@ -1,11 +1,11 @@
-a, b, c = map(float, input().split())
+a, b, c = map(int, input().split())
 if a > b:
     if a >= c:
         print(a)
     else:
         print(c)
-elif a >= c:
-    if a > b:
+elif a > c:
+    if a >= b:
         print(a)
     else:
         print(c)
