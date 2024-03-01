@@ -1,4 +1,4 @@
-a, b, c = map(int, input().split())
+a, b, c = map(float, input().split())
 if a > b:
     if a >= c:
         print(a)
