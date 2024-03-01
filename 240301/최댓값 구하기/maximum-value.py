@@ -4,11 +4,11 @@ if a > b:
         print(a)
     else:
         print(c)
-elif a > c:
-    if a >= b:
-        print(a)
-    else:
-        print(b)
+# elif a > c:
+#     if a >= b:
+#         print(a)
+#     else:
+#         print(b)
 else:
     if b >= c:
         print(b)
