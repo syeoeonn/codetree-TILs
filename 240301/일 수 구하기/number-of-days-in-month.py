@@ -5,7 +5,7 @@ elif m >= 8 and m % 2 == 0:
     print("30")
 elif m >= 8 and m % 2 != 0:
     print("31")
-else m %2 == 0:
+elif m % 2 == 0:
     print("31")
 else: 
     print("30")
