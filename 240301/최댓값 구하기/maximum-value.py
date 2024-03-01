@@ -8,7 +8,7 @@ elif a > c:
     if a >= b:
         print(a)
     else:
-        print(c)
+        print(b)
 else:
     if b >= c:
         print(b)
